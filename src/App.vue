@@ -65,7 +65,7 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="w-full h-full bg-blue-100 rounded-xl text-blue-950 flex flex-col justify-center gap-6 p-[10%]">
         <h3 class="text-5xl">Admissions</h3>
         <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit iure nostrum deleniti illum dicta.</p>
-        <button class="border-[1px] border-blue-950 rounded-3xl w-32 px-4 py-2 hover:bg-blue-950 hover:text-indigo-200 transition-[.1s]">Read More</button>
+        <button class="border-[1px] border-blue-950 rounded-3xl w-32 px-4 py-2 hover:bg-blue-950 hover:text-blue-100 transition-[.1s]">Read More</button>
       </div>
     </div>
     <div class="h-[150vh] bg-blue-950 flex flex-col text-white py-[5%] gap-[15%]">
