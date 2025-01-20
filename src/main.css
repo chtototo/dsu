@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Cormorant;
+        font-weight: 700;
+    }
+}
+
+* {
+    @apply box-border scroll-smooth
+}
+
+#app {
+    @apply w-full relative text-black
+}
+
+body {
+    @apply overflow-x-hidden h-[100vh]
+}
+
+body::-webkit-scrollbar {
+    @apply w-[12px]
+}
+
+body::-webkit-scrollbar-track {
+    @apply bg-transparent
+}
+
+body::-webkit-scrollbar-thumb {
+    @apply bg-zinc-700 rounded-full
+}
+
+.main {
+    background-image: url('./images/dgu.png');
+}
+
+.stat {
+    @apply rounded-sm rounded-md
+}
