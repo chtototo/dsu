@@ -24,7 +24,7 @@ import { RouterLink, RouterView } from "vue-router";
         <div class="">
           <a class="justify-self-center cursor-pointer flex flex-col items-center text-white font-semibold" link=/>
             <img src="./images/logo2.png" alt="" width="70" />
-            <p>DGU</p>
+            <p>DSU</p>
           </a>
         </div>
 
@@ -47,7 +47,7 @@ import { RouterLink, RouterView } from "vue-router";
   </div>
 
   <main id="content" class="min-h-screen bg-white flex flex-col gap-28 pb-28">
-    <div class="w-full bg-indigo-200 p-[10vw] text-4xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nulla labore, amet, dicta, dignissimos dolorem laudantium culpa error iusto dolorum expedita nostrum. Maxime quaerat autem harum, magnam atque eum ipsa.</div>
+    <div class="w-full bg-blue-100 p-[10vw] text-4xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nulla labore, amet, dicta, dignissimos dolorem laudantium culpa error iusto dolorum expedita nostrum. Maxime quaerat autem harum, magnam atque eum ipsa.</div>
     <div class="grid grid-cols-3 grid-rows-2 h-screen gap-4 mx-[5vw]">
       <div class="w-full h-full bg-blue-950 rounded-xl row-span-2 bg-[url('./images/dgu.png')] bg-cover bg-center flex flex-col justify-end p-[10%] gap-6 text-white">
         <h3 class="text-4xl">Welcome to the DSU</h3>
@@ -62,7 +62,7 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="w-full h-full bg-blue-950 rounded-xl flex justify-center items-center">
         <img src="./images/logo2.png" alt="">
       </div>
-      <div class="w-full h-full bg-indigo-200 rounded-xl text-blue-950 flex flex-col justify-center gap-6 p-[10%]">
+      <div class="w-full h-full bg-blue-100 rounded-xl text-blue-950 flex flex-col justify-center gap-6 p-[10%]">
         <h3 class="text-5xl">Admissions</h3>
         <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit iure nostrum deleniti illum dicta.</p>
         <button class="border-[1px] border-blue-950 rounded-3xl w-32 px-4 py-2 hover:bg-blue-950 hover:text-indigo-200 transition-[.1s]">Read More</button>
@@ -127,6 +127,7 @@ import { RouterLink, RouterView } from "vue-router";
         <a href="/" class="hover:underline">Новости</a>
         <a href="/" class="hover:underline">Архив</a>
         <a href="/" class="hover:underline">Сведения</a>
+        <a href="/" class="hover:underline">Ссылки</a>
       </nav>
     </div>
     <p class="flex flex-row gap-1 self-center text-zinc-300"><span>&copy</span>developed by magnus</p>
